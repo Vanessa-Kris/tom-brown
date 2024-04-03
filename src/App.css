@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Lilita_One";
+	src:
+		url("/public/Lilita_One/LilitaOne-Regular.ttf") format("tff"),
+		url("/public/Lilita_One/LilitaOne-Regular.ttf") format("ttf");
+}
+
+* {
+	font-family: "Lilita_One", sans-serif !important;
+}
+
+.bg {
+    background-image: url(/public/bgg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px)  {
+    .bg {
+        background-image: url(/public/bgg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }  
+}
+
