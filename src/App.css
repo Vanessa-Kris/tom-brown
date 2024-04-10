@@ -9,6 +9,10 @@
 	font-family: "Lilita_One", sans-serif !important;
 }
 
+body{
+    background-image: url(/public/tbwm.png);
+}
+
 .bg {
     background-image: url(/public/bgg.png);
     background-size: cover;
